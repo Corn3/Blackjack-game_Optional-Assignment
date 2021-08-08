@@ -72,3 +72,24 @@ header {
     border: solid rgb(158, 158, 158) 1px;
     box-shadow: 5px 5px 5px #111411
 }
+footer {
+    position: absolute;
+    box-sizing: border-box;
+    margin-bottom: 0;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+    width: 25%;
+}
+
+
+#text-name, #player-name {
+    font-size: 24px;
+    font-weight: bold;
+}
+#text-name {
+    float: left;
+}
+#player-name {
+    float: right;
+}
